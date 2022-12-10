@@ -63,7 +63,7 @@ namespace WindowsFormsApp1
             }
         }
 
-        // 이미지의 외각선을 전역변수로 선언
+        // 이미지의 외각선을 위한 변수를 전역변수로 선언
         public List<OpenCvSharp.Point[]> new_contours = new List<OpenCvSharp.Point[]>();
 
         private void Image_Convert_button_Click(object sender, EventArgs e)
