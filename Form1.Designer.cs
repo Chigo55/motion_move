@@ -51,6 +51,7 @@ namespace WindowsFormsApp1
             this.Original_Image_Label = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.Z_Break_Button = new System.Windows.Forms.Button();
+            this.Break_Button = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Threshold_TrackBar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Contour_Image_Box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Binary_Image_Box)).BeginInit();
@@ -251,11 +252,22 @@ namespace WindowsFormsApp1
             this.Z_Break_Button.UseVisualStyleBackColor = true;
             this.Z_Break_Button.Click += new System.EventHandler(this.Z_Break_Button_Click);
             // 
+            // Break_Button
+            // 
+            this.Break_Button.Location = new System.Drawing.Point(995, 355);
+            this.Break_Button.Name = "Break_Button";
+            this.Break_Button.Size = new System.Drawing.Size(118, 44);
+            this.Break_Button.TabIndex = 46;
+            this.Break_Button.Text = "Break";
+            this.Break_Button.UseVisualStyleBackColor = true;
+            this.Break_Button.Click += new System.EventHandler(this.Break_Button_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1144, 825);
+            this.Controls.Add(this.Break_Button);
             this.Controls.Add(this.Z_Break_Button);
             this.Controls.Add(this.TrackBar_Value_Label);
             this.Controls.Add(this.Threshold_TrackBar);
@@ -309,6 +321,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Label Original_Image_Label;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button Z_Break_Button;
+        private System.Windows.Forms.Button Break_Button;
     }
 }
 

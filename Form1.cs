@@ -106,8 +106,8 @@ namespace WindowsFormsApp1
         }
 
         // 버튼의 On-Off 상태를 알기 위한 변수 선언  
-        public int ServoOn, Move_start, Home = 0;
-        public int Alarm, EndLimit, Inposition = 0;
+        public int ServoOn, Move_start, Home, ZBreak = 0;
+        public int Alarm, EndLimit, Inposition, Break = 0;
 
         private void Servo_On_Button_Click(object sender, EventArgs e)
         {
@@ -227,11 +227,6 @@ namespace WindowsFormsApp1
             }
             else
             {
-                CAXM.AxmContiWriteClear(lCoordinate);
-                for (int i = 0; i < 3; i++)
-                {
-                    CAXM.AxmHomeSetStart(i);
-                }
                 Move_Button.BackColor = Color.LightGray;
             }
             Move_start = ~Move_start;
@@ -270,9 +265,6 @@ namespace WindowsFormsApp1
             }
         }
 
-        // z축의 브레이크 해제를 위한 변수
-        public int ZBreak;
-
         private void Z_Break_Button_Click(object sender, EventArgs e)
         {
             if (ZBreak == 0)
@@ -290,9 +282,32 @@ namespace WindowsFormsApp1
             ZBreak = ~ZBreak;
         }
 
+        private void Break_Button_Click(object sender, EventArgs e)
+        {
+            // 정지 버튼 On
+            if (Break == 0)
+            {
+                int lCoordinate = 0;
+                // Queue에 저장된 좌표들을 삭제
+                CAXM.AxmContiWriteClear(lCoordinate);
+
+                // 홈 위치로 구동
+                for (int i = 0; i < 3; i++)
+                {
+                    CAXM.AxmHomeSetStart(i);
+                }
+                Break_Button.BackColor = Color.LightPink;
+            }
+            else
+            {
+                Break_Button.BackColor = Color.LightGray;
+            }
+            Break = ~Break;
+        }
+
         private void Alarm_Button_Click(object sender, EventArgs e)
         {
-            if (Alarm == 1)
+            if (Alarm == 0)
             {
                 for (int i = 0; i < 3; i++)
                 {
@@ -314,7 +329,7 @@ namespace WindowsFormsApp1
             {
                 for (int i = 0; i < 3; i++)
                 {
-                    // 홈 위치를 찾는다
+                    // 홈 위치로 구동
                     CAXM.AxmHomeSetStart(i);
                 }
 
@@ -351,6 +366,7 @@ namespace WindowsFormsApp1
             {
                 for (int i = 0; i < 3; i++)
                 {
+                    // Inposition UNUSED 설정
                     CAXM.AxmSignalSetInpos(i, (uint)AXT_MOTION_LEVEL_MODE.UNUSED);
                 }
                 Inposition_Button.BackColor = Color.LightPink;
