@@ -52,6 +52,7 @@ namespace WindowsFormsApp1
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.Z_Break_Button = new System.Windows.Forms.Button();
             this.Break_Button = new System.Windows.Forms.Button();
+            this.Z_Move_Button = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Threshold_TrackBar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Contour_Image_Box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Binary_Image_Box)).BeginInit();
@@ -62,7 +63,7 @@ namespace WindowsFormsApp1
             // TrackBar_Value_Label
             // 
             this.TrackBar_Value_Label.AutoSize = true;
-            this.TrackBar_Value_Label.Location = new System.Drawing.Point(849, 419);
+            this.TrackBar_Value_Label.Location = new System.Drawing.Point(849, 325);
             this.TrackBar_Value_Label.Name = "TrackBar_Value_Label";
             this.TrackBar_Value_Label.Size = new System.Drawing.Size(71, 15);
             this.TrackBar_Value_Label.TabIndex = 44;
@@ -70,7 +71,7 @@ namespace WindowsFormsApp1
             // 
             // Threshold_TrackBar
             // 
-            this.Threshold_TrackBar.Location = new System.Drawing.Point(836, 437);
+            this.Threshold_TrackBar.Location = new System.Drawing.Point(836, 343);
             this.Threshold_TrackBar.Maximum = 255;
             this.Threshold_TrackBar.Name = "Threshold_TrackBar";
             this.Threshold_TrackBar.Size = new System.Drawing.Size(277, 56);
@@ -79,7 +80,7 @@ namespace WindowsFormsApp1
             // 
             // Inposition_Button
             // 
-            this.Inposition_Button.Location = new System.Drawing.Point(995, 194);
+            this.Inposition_Button.Location = new System.Drawing.Point(836, 536);
             this.Inposition_Button.Name = "Inposition_Button";
             this.Inposition_Button.Size = new System.Drawing.Size(118, 44);
             this.Inposition_Button.TabIndex = 42;
@@ -89,7 +90,7 @@ namespace WindowsFormsApp1
             // 
             // End_Limit_Button
             // 
-            this.End_Limit_Button.Location = new System.Drawing.Point(836, 270);
+            this.End_Limit_Button.Location = new System.Drawing.Point(995, 437);
             this.End_Limit_Button.Name = "End_Limit_Button";
             this.End_Limit_Button.Size = new System.Drawing.Size(118, 44);
             this.End_Limit_Button.TabIndex = 41;
@@ -99,7 +100,7 @@ namespace WindowsFormsApp1
             // 
             // Home_Button
             // 
-            this.Home_Button.Location = new System.Drawing.Point(995, 270);
+            this.Home_Button.Location = new System.Drawing.Point(995, 536);
             this.Home_Button.Name = "Home_Button";
             this.Home_Button.Size = new System.Drawing.Size(118, 44);
             this.Home_Button.TabIndex = 40;
@@ -109,7 +110,7 @@ namespace WindowsFormsApp1
             // 
             // Alarm_Button
             // 
-            this.Alarm_Button.Location = new System.Drawing.Point(836, 194);
+            this.Alarm_Button.Location = new System.Drawing.Point(836, 437);
             this.Alarm_Button.Name = "Alarm_Button";
             this.Alarm_Button.Size = new System.Drawing.Size(118, 44);
             this.Alarm_Button.TabIndex = 39;
@@ -149,7 +150,7 @@ namespace WindowsFormsApp1
             // 
             // Move_Button
             // 
-            this.Move_Button.Location = new System.Drawing.Point(995, 120);
+            this.Move_Button.Location = new System.Drawing.Point(995, 143);
             this.Move_Button.Name = "Move_Button";
             this.Move_Button.Size = new System.Drawing.Size(118, 44);
             this.Move_Button.TabIndex = 33;
@@ -159,7 +160,7 @@ namespace WindowsFormsApp1
             // 
             // Servo_On_Button
             // 
-            this.Servo_On_Button.Location = new System.Drawing.Point(836, 120);
+            this.Servo_On_Button.Location = new System.Drawing.Point(836, 143);
             this.Servo_On_Button.Name = "Servo_On_Button";
             this.Servo_On_Button.Size = new System.Drawing.Size(118, 44);
             this.Servo_On_Button.TabIndex = 32;
@@ -244,7 +245,7 @@ namespace WindowsFormsApp1
             // 
             // Z_Break_Button
             // 
-            this.Z_Break_Button.Location = new System.Drawing.Point(836, 355);
+            this.Z_Break_Button.Location = new System.Drawing.Point(836, 242);
             this.Z_Break_Button.Name = "Z_Break_Button";
             this.Z_Break_Button.Size = new System.Drawing.Size(118, 44);
             this.Z_Break_Button.TabIndex = 45;
@@ -254,7 +255,7 @@ namespace WindowsFormsApp1
             // 
             // Break_Button
             // 
-            this.Break_Button.Location = new System.Drawing.Point(995, 355);
+            this.Break_Button.Location = new System.Drawing.Point(836, 632);
             this.Break_Button.Name = "Break_Button";
             this.Break_Button.Size = new System.Drawing.Size(118, 44);
             this.Break_Button.TabIndex = 46;
@@ -262,11 +263,22 @@ namespace WindowsFormsApp1
             this.Break_Button.UseVisualStyleBackColor = true;
             this.Break_Button.Click += new System.EventHandler(this.Break_Button_Click);
             // 
+            // Z_Move_Button
+            // 
+            this.Z_Move_Button.Location = new System.Drawing.Point(995, 242);
+            this.Z_Move_Button.Name = "Z_Move_Button";
+            this.Z_Move_Button.Size = new System.Drawing.Size(118, 44);
+            this.Z_Move_Button.TabIndex = 47;
+            this.Z_Move_Button.Text = "Z_Move";
+            this.Z_Move_Button.UseVisualStyleBackColor = true;
+            this.Z_Move_Button.Click += new System.EventHandler(this.Z_Move_Button_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1144, 825);
+            this.Controls.Add(this.Z_Move_Button);
             this.Controls.Add(this.Break_Button);
             this.Controls.Add(this.Z_Break_Button);
             this.Controls.Add(this.TrackBar_Value_Label);
@@ -322,6 +334,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button Z_Break_Button;
         private System.Windows.Forms.Button Break_Button;
+        private System.Windows.Forms.Button Z_Move_Button;
     }
 }
 

@@ -106,7 +106,7 @@ namespace WindowsFormsApp1
         }
 
         // 버튼의 On-Off 상태를 알기 위한 변수 선언  
-        public int ServoOn, Move_start, Home, ZBreak = 0;
+        public int ServoOn, Move_start, Home, ZBreak, ZMove = 0;
         public int Alarm, EndLimit, Inposition, Break = 0;
 
         private void Servo_On_Button_Click(object sender, EventArgs e)
@@ -240,13 +240,13 @@ namespace WindowsFormsApp1
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-           
+            // 축의 구동 상태를 확인
             CAXM.AxmStatusReadInMotion(0, ref X_State);
             CAXM.AxmStatusReadInMotion(1, ref Y_State);
             CAXM.AxmStatusReadInMotion(2, ref Z_State);
 
 
-            // 구동이 끝났을 경우
+            // 구동이 끝났는지 확인
             if ((X_State | Y_State | Z_State) == 0)
             {
                 cnt++;
@@ -262,6 +262,20 @@ namespace WindowsFormsApp1
 
                 CAXM.AxmMovePos(2, 0, Velocity, Accel, Accel);
                 cnt = 0;
+            }
+        }
+
+        private void Z_Move_Button_Click(object sender, EventArgs e)
+        {
+            double Velocity = 200, Accel = 200;
+
+            if (ZMove == 0)
+            {
+                CAXM.AxmMovePos(2, -200, Velocity, Accel, Accel);
+            }
+            else
+            {
+                CAXM.AxmMovePos(2, 0, Velocity, Accel, Accel);
             }
         }
 
