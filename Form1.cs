@@ -240,11 +240,11 @@ namespace WindowsFormsApp1
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            // x, y, z축의 구동 상태 확인
-            for (int i = 0; i < 3; i++)
-            {
-                CAXM.AxmStatusReadInMotion(i, ref X_State);
-            }
+           
+            CAXM.AxmStatusReadInMotion(0, ref X_State);
+            CAXM.AxmStatusReadInMotion(1, ref Y_State);
+            CAXM.AxmStatusReadInMotion(2, ref Z_State);
+
 
             // 구동이 끝났을 경우
             if ((X_State | Y_State | Z_State) == 0)

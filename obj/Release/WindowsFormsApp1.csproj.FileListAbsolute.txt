@@ -1,0 +1,69 @@
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\AXL.dll
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\EzBasicAxl.dll
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\AXA.cs
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\AXC.cs
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\AXD.cs
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\AXDev.cs
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\AXHD.cs
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\AXHS.cs
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\AXL.cs
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\AXM.cs
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\AXL.lib
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\WindowsFormsApp1.exe
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\WindowsFormsApp1.pdb
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\OpenCvSharp.Blob.dll
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\OpenCvSharp.dll
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\OpenCvSharp.Extensions.dll
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\OpenCvSharp.UserInterface.dll
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\OpenCvSharp.pdb
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\OpenCvSharp.xml
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\OpenCvSharp.Blob.pdb
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\OpenCvSharp.Blob.xml
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\OpenCvSharp.Extensions.pdb
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\OpenCvSharp.Extensions.xml
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\OpenCvSharp.UserInterface.pdb
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\bin\Release\OpenCvSharp.UserInterface.xml
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\obj\Release\WindowsFormsApp1.Form1.resources
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\obj\Release\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\obj\Release\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\obj\Release\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\obj\Release\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\obj\Release\WindowsFormsApp1.exe
+C:\Users\mgkwo\source\repos\WindowsFormsApp12\obj\Release\WindowsFormsApp1.pdb
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\dll\x86\OpenCvSharpExtern.dll
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\dll\x86\opencv_ffmpeg400.dll
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\dll\x64\OpenCvSharpExtern.dll
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\dll\x64\opencv_ffmpeg400_64.dll
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\AXL.dll
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\EzBasicAxl.dll
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\AXA.cs
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\AXC.cs
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\AXD.cs
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\AXDev.cs
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\AXHD.cs
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\AXHS.cs
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\AXL.cs
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\AXM.cs
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\AXL.lib
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\WindowsFormsApp1.exe
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\WindowsFormsApp1.pdb
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\OpenCvSharp.Blob.dll
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\OpenCvSharp.dll
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\OpenCvSharp.Extensions.dll
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\OpenCvSharp.UserInterface.dll
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\OpenCvSharp.pdb
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\OpenCvSharp.xml
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\OpenCvSharp.Blob.pdb
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\OpenCvSharp.Blob.xml
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\OpenCvSharp.Extensions.pdb
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\OpenCvSharp.Extensions.xml
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\OpenCvSharp.UserInterface.pdb
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\bin\Release\OpenCvSharp.UserInterface.xml
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\obj\Release\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\obj\Release\WindowsFormsApp1.Form1.resources
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\obj\Release\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\obj\Release\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\obj\Release\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\obj\Release\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\obj\Release\WindowsFormsApp1.exe
+C:\Users\jungih\OneDrive\바탕 화면\WindowsFormsApp12\WindowsFormsApp12\obj\Release\WindowsFormsApp1.pdb
