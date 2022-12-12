@@ -25,6 +25,10 @@ namespace WindowsFormsApp1
             {
                 MessageBox.Show("AXL 라이브러리 Open 성공");
             }
+            else
+            {
+                MessageBox.Show("AXL 라이브러리 Open 실패");
+            }
 
             // x, y, z축 설정 초기화
             for (int i = 0; i < 3; i++)
@@ -263,6 +267,11 @@ namespace WindowsFormsApp1
                 CAXM.AxmMovePos(2, 0, Velocity, Accel, Accel);
                 cnt = 0;
             }
+        }
+
+        private void Draw_contour_Size_TrackBar_Scroll(object sender, EventArgs e)
+        {
+            Draw_contour_Size_Label.Text = " Draw contour Size: " + Draw_contour_Size_TrackBar.Value.ToString();
         }
 
         private void Z_Move_Button_Click(object sender, EventArgs e)

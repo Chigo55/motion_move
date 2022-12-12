@@ -53,11 +53,14 @@ namespace WindowsFormsApp1
             this.Z_Break_Button = new System.Windows.Forms.Button();
             this.Break_Button = new System.Windows.Forms.Button();
             this.Z_Move_Button = new System.Windows.Forms.Button();
+            this.Draw_contour_Size_Label = new System.Windows.Forms.Label();
+            this.Draw_contour_Size_TrackBar = new System.Windows.Forms.TrackBar();
             ((System.ComponentModel.ISupportInitialize)(this.Threshold_TrackBar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Contour_Image_Box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Binary_Image_Box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Original_Image_Box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Gray_Image_Box)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Draw_contour_Size_TrackBar)).BeginInit();
             this.SuspendLayout();
             // 
             // TrackBar_Value_Label
@@ -80,7 +83,7 @@ namespace WindowsFormsApp1
             // 
             // Inposition_Button
             // 
-            this.Inposition_Button.Location = new System.Drawing.Point(836, 536);
+            this.Inposition_Button.Location = new System.Drawing.Point(836, 641);
             this.Inposition_Button.Name = "Inposition_Button";
             this.Inposition_Button.Size = new System.Drawing.Size(118, 44);
             this.Inposition_Button.TabIndex = 42;
@@ -90,7 +93,7 @@ namespace WindowsFormsApp1
             // 
             // End_Limit_Button
             // 
-            this.End_Limit_Button.Location = new System.Drawing.Point(995, 437);
+            this.End_Limit_Button.Location = new System.Drawing.Point(995, 530);
             this.End_Limit_Button.Name = "End_Limit_Button";
             this.End_Limit_Button.Size = new System.Drawing.Size(118, 44);
             this.End_Limit_Button.TabIndex = 41;
@@ -100,7 +103,7 @@ namespace WindowsFormsApp1
             // 
             // Home_Button
             // 
-            this.Home_Button.Location = new System.Drawing.Point(995, 536);
+            this.Home_Button.Location = new System.Drawing.Point(995, 641);
             this.Home_Button.Name = "Home_Button";
             this.Home_Button.Size = new System.Drawing.Size(118, 44);
             this.Home_Button.TabIndex = 40;
@@ -110,7 +113,7 @@ namespace WindowsFormsApp1
             // 
             // Alarm_Button
             // 
-            this.Alarm_Button.Location = new System.Drawing.Point(836, 437);
+            this.Alarm_Button.Location = new System.Drawing.Point(836, 530);
             this.Alarm_Button.Name = "Alarm_Button";
             this.Alarm_Button.Size = new System.Drawing.Size(118, 44);
             this.Alarm_Button.TabIndex = 39;
@@ -255,7 +258,7 @@ namespace WindowsFormsApp1
             // 
             // Break_Button
             // 
-            this.Break_Button.Location = new System.Drawing.Point(836, 632);
+            this.Break_Button.Location = new System.Drawing.Point(836, 743);
             this.Break_Button.Name = "Break_Button";
             this.Break_Button.Size = new System.Drawing.Size(118, 44);
             this.Break_Button.TabIndex = 46;
@@ -273,11 +276,31 @@ namespace WindowsFormsApp1
             this.Z_Move_Button.UseVisualStyleBackColor = true;
             this.Z_Move_Button.Click += new System.EventHandler(this.Z_Move_Button_Click);
             // 
+            // Draw_contour_Size_Label
+            // 
+            this.Draw_contour_Size_Label.AutoSize = true;
+            this.Draw_contour_Size_Label.Location = new System.Drawing.Point(849, 419);
+            this.Draw_contour_Size_Label.Name = "Draw_contour_Size_Label";
+            this.Draw_contour_Size_Label.Size = new System.Drawing.Size(130, 15);
+            this.Draw_contour_Size_Label.TabIndex = 49;
+            this.Draw_contour_Size_Label.Text = "Draw Contour Size";
+            // 
+            // Draw_contour_Size_TrackBar
+            // 
+            this.Draw_contour_Size_TrackBar.Location = new System.Drawing.Point(836, 437);
+            this.Draw_contour_Size_TrackBar.Maximum = 255;
+            this.Draw_contour_Size_TrackBar.Name = "Draw_contour_Size_TrackBar";
+            this.Draw_contour_Size_TrackBar.Size = new System.Drawing.Size(277, 56);
+            this.Draw_contour_Size_TrackBar.TabIndex = 48;
+            this.Draw_contour_Size_TrackBar.Scroll += new System.EventHandler(this.Draw_contour_Size_TrackBar_Scroll);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1144, 825);
+            this.Controls.Add(this.Draw_contour_Size_Label);
+            this.Controls.Add(this.Draw_contour_Size_TrackBar);
             this.Controls.Add(this.Z_Move_Button);
             this.Controls.Add(this.Break_Button);
             this.Controls.Add(this.Z_Break_Button);
@@ -306,6 +329,7 @@ namespace WindowsFormsApp1
             ((System.ComponentModel.ISupportInitialize)(this.Binary_Image_Box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Original_Image_Box)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Gray_Image_Box)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Draw_contour_Size_TrackBar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -335,6 +359,8 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button Z_Break_Button;
         private System.Windows.Forms.Button Break_Button;
         private System.Windows.Forms.Button Z_Move_Button;
+        private System.Windows.Forms.Label Draw_contour_Size_Label;
+        private System.Windows.Forms.TrackBar Draw_contour_Size_TrackBar;
     }
 }
 
