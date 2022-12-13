@@ -91,7 +91,7 @@ namespace WindowsFormsApp1
             foreach (OpenCvSharp.Point[] contour in contours)
             {
                 double length = Cv2.ArcLength(contour, true);
-                if (length > 100)
+                if (length > Draw_contour_Size_TrackBar.Value)
                 {
                     new_contours.Add(contour);
                 }
